@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="witdh = device-width, inital-scale= 1.0">
+  <title> Mi tienda en linea </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel= "stylessheet" href="css/responsive.css">
+  </head>
+<body>
+  <header>
+    <h1> Mi tienda </h1>
+    <nav>
+    <ul>
+      <li> <a href="index.html"> inicio</a></li>
+      <li> <a href="productos.html"> producto</a></li>
+      <li> <a href="carrito.html"> carrito</a></li>
+      <li> <a href="contato.html"> contacto</a></li>
+    </ul>
+    </nav>
+    <section class="busqueda">
+      <input type="text" id="buscador" 
+        placeholder= "Buscar producto..."
+        oninput= "filtrar productos()"/>
+      </section>
+  </header>
+  <main>
+    <h2> Bienvenido a nuestera tienda </h2>
+    <p> Encuentra los mejores productos al mejor precio </p>
+    <section class="Ofertas">
+      <h2>💸Ofertas del dia </h2>
+      <div class="Productos">
+        <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/34006326.jpg" alt="Redmi"/>
+          <figcaption>
+            <h3>motocicleta 280z </h3>
+            <p class="Descripcion"> Motor de 280cm </p>
+            <p class="Precio-Oferta"> <del> $59,000.00 </del> $49,000.00</p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+        <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/5635023-1600-auto.png" alt="Laptop Gamer"/>
+          <figcaption>
+            <h3> motocicleta dm200 </h3>
+            <p class="Descripcion"> motor de 200cm</p>
+            <p class="Precio-Oferta"> <del> $49,268.00 </del> $39,500.00</p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+        <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/34006261-d1.jpg" width="250" alt="Xbox Series"/>
+          <figcaption>
+            <h3> motocicleta 125z </h3>
+            <p class="Descripcion"> motor de 125cm enfriada por aceite</p>
+            <p class="Precio-Oferta"> <del> $39,000.00 </del> $29,000.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/Italika_Vort_X_300_Galgo_M_xico.png" alt="TV"/>
+          <figcaption>
+            <h3> motocicleta vort-x300 </h3>
+            <p class="Descripcion"> motor de 299cm </p>
+            <p class="Precio-Oferta"> <del> $69,000.00 </del> $59,000.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/Bajaj-Pulsar-NS-250.jpg" alt="Tablet"/>
+          <figcaption>
+            <h3> motocicleta pulsar n250 </h3>
+            <p class="Descripcion"> motor de 250cm con faro de luz blanca </p>
+            <p class="Precio-Oferta"> <del> $79,000.00 </del> $59,000.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+         <figure class="Producto"> 
+          <img src="/storage/emulated/0/Pictures/PHO_BIKE_90_REVO_MY24-KTM-390-DUKE-90-RIGHT-Front_SALL_AEPI_V1.webp" alt="Refri"/>
+          <figcaption>
+            <h3> motocicleta ktm 390 </h3>
+            <p class="Descripcion"> Capasidad de 150 kilos y motor de 389cm </p>
+            <p class="Precio-Oferta"> <del> $79,500.00 </del> $59,500.00 </p>
+            <p class="Rating"> ⭐⭐⭐⭐⭐ </p>
+            <button onclick="AgregarA]Carrito('Laptop Gamer',12999, '  imglap.jpeg')"> Agregar al carrito </button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p> &copy; 2025 Mi Tienda </p>
+  </footer>
+  <script src="js/main.js"> </script>
+</body>
+</html>
